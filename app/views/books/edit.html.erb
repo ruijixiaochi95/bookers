@@ -30,6 +30,6 @@
  
 <% end %>
 
-<a><%= link_to "Show", book_path(@book.id) %></a>
+<%= link_to "Show", book_path(@book.id), {class: "nav-link"} %>
  | 
-<a><%= link_to "Back", books_path %><
+<%= link_to "Back", books_path %>

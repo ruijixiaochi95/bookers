@@ -16,7 +16,7 @@
    <td><%= book.body %></td>
    <td><%= link_to "Show", book_path(book.id) %></td>
    <td><%= link_to "Edit", edit_book_path(book.id) %></td>
-   <td><a><%= link_to "Destroy", book_path(book.id),method: :delete,"data-confirm" => "Are you sure?" %></a></td>
+   <td><%= link_to "Destroy", book_path(book.id),method: :delete,"data-confirm" => "Are you sure?" %></td>
   </tr>
  <% end %>
 
@@ -49,7 +49,7 @@
     </div>
 
     <div class="actions">
-     <%= f.submit 'Create book' %>
+     <%= f.submit 'Create Book' %>
     </div>
 
  <% end %>
